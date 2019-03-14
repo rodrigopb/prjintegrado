@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+
+  <!-- codigo jquerry-->
+  <script src="components/jquery-3.3.1.min.js"></script>
+  <script src="components/acao.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+
+   <!-- css aplicação-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="col-xs-12" style="text-align:center">
+    <div class="jumbotron fundo">
+        <h2>Metabolismo Basal</h2><br>
+       
+
+  <div class="container">
+    <div class="row linha">
+
+    </div>
+    <div class="row">
+       <div class="col-xs-5">
+          <p>Peso:  </p>
+     </div>
+
+      <div class="col-xs-7">
+        <div class="form-group">
+          <input type="text" class="form-control" id="peso">
+       </div> 
+     </div>
+    </div>
+
+    <div class="row">
+       <div class="col-xs-5">
+          <p>Altura:  </p>
+     </div>
+
+      <div class="col-xs-7">
+        <div class="form-group">
+          <input type="text" class="form-control" id="altura">
+       </div> 
+     </div>
+    </div>
+
+     <div class="row">
+       <div class="col-xs-5">
+          <p>Idade:  </p>
+     </div>
+
+      <div class="col-xs-7">
+        <div class="form-group">
+          <input name="Idade" type="text" class="form-control" id="idade">
+       </div> 
+     </div>
+    </div>
+
+<div class="row">
+       <div class="col-xs-5">
+          <p>Sexo:  </p>
+     </div>
+
+      <div class="col-xs-7">
+        <div class="form-group">
+          <select id="sexo">
+            <option>Masculino</option>
+            <option>Feminino</option>
+          </select>
+       </div> 
+     </div>
+    </div>
+
+    <div class="row">
+       <div class="col-xs-4">
+          <p>Atividade:  </p>
+     </div>
+
+      <div class="col-xs-8">
+        <div class="form-group">
+          <select id="atividade">
+            <option>Sedentários</option>
+            <option>Levemente ativo</option>
+            <option>Moderadamente ativo</option>
+            <option>Altamente ativo</option>
+            <option>Extremamente ativo</option>
+          </select>
+       </div> 
+     </div>
+    </div>
+
+
+
+    <div class="row linha">
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6">
+        <button class="btn  btn-block" id="btncalc">Calcular</button>
+      </div> 
+      <div class="col-xs-3"></div>
+    </div>
+
+    <div class="row"><br>
+    <div class="col-xs-2"></div>
+      <div class="col-xs-8">
+        <div class="form-group">
+          <input type="text" class="form-control" id="resultado">
+       </div> 
+     </div>
+     <div class="col-xs-2"></div>
+    </div>
+
+    
+    
+     </div>
+  </div>
+</body>
+</html>
