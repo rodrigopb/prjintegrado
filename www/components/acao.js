@@ -26,12 +26,12 @@ else if(ativ=="Extremamente ativo"){
 
 if(sexo=="Masculino"){
   //atividade * {66 + [(13,7 * peso) + ( 5 * altura) - (6,8 * idade)]}
-  var calculo1 = ((13,7 * peso) + ( 5 * altura) - (6,8 * idade));
+  var calculo1 = ((13.7 * peso) + ( 5 * altura) - (6.8 * idade));
   var mb = atividade * (66 + calculo1);
 }
 else if(sexo=="Feminino"){
   //Taxa de atividade x {655 + [(9,6 x Peso(kg)) + (1,8 x Altura(cm)) - (4,7 x Idade(anos))]}
-  var calculo1 = ((9,6 * peso) + (1,8 * altura) - (4,7 * idade));
+  var calculo1 = ((9.6 * peso) + (1.8 * altura) - (4.7 * idade));
   var mb = atividade * (655 + calculo1);
 }
 
