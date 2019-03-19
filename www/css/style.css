@@ -2,7 +2,7 @@
 .fundo{
   width: 90%;
   margin:20px;
-
+  background-color:lavender;
   border-radius:10px;
 }
 
@@ -15,7 +15,7 @@
 .linha button{
   margin-left: 37px;
   font-size: 25px;
-  background-color: whitesmoke;
+  background-color:lightsteelblue;
 }
 
 .linha p{

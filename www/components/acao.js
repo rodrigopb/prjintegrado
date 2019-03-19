@@ -1,7 +1,5 @@
 // This is a JavaScript file
 
-<<<<<<< HEAD
-=======
 $(document).on("click","#btncalc",function(){
 var peso=$("#peso").val();
 var altura=$('#altura').val();
@@ -41,4 +39,4 @@ $("#resultado").val(mb);
 
 
 });
->>>>>>> 5c95d9c98725f4d575de9c9caf771f4efa3f6370
+
